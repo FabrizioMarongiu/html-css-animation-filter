@@ -8,7 +8,7 @@
     background-color: red;
 }
 
-/* ESERCIZIO2 */
+/* ESERCIZIO 2 */
 
 .ex-2-square{
     transition: 5s;
@@ -18,7 +18,7 @@
     width: 100%;
 }
 
-/* ESERCIZIO3 */
+/* ESERCIZIO 3 */
 
 .ex-3-square{
     transition: 2s;
@@ -28,7 +28,7 @@
     border-radius: 50%;
 }
 
-/* ESERCIZIO4 */
+/* ESERCIZIO 4 */
 
 .ex-4-square{
     transition: 5s;
@@ -38,5 +38,101 @@
     opacity: .0;
 }
 
-/* ESERCIZIO5 */
+/* ESERCIZIO 5 da finire */
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100%;
+    /* margin: 0; */
+}
+
+/* ESERCIZIO 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(45);
+}
+
+/* ESERCIZIO 7 da rivedere*/
+
+.ex-7-img{
+    transition: 3s;
+}
+
+.ex-7-img:hover{
+    filter: sepia(45);
+}
+
+/* ESERCIZIO 8 da trovare il secondo effetto*/
+
+.ex-8-img{
+    transition: 5s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(25);
+    border-radius: 8px;
+}
+
+/* ESERCIZIO 9 cercare il secondo effetto*/
+
+.ex-9-img{
+    transition: 3s;
+    
+}
+
+.ex-9-img:hover{
+    filter: grayscale(25);
+    border-radius:8px;
+    transform: scale(1.5, 1.5);
+}
+
+/* ESERCIZIO 10 */
+
+.ex-10-icon{
+    animation: circle10 1s linear infinite;
+}
+
+@keyframes circle10{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-90deg);
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    75%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon:hover{
+    animation: circle11  2s linear forwards;
+}
+
+@keyframes circle11{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* ESERCIZIO 12 */
 
